@@ -24,12 +24,16 @@ console.log(lastItemRemoved);
 ////////// PROBLEM 3 //////////
 
 // Do not edit the code below.
-var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
+var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ian'];
 // Do not edit the code above.
 
 /*
   Loop through the 'family' array and console.log every item.
 */
+
+for (let i = 0; i < family.length; i++) {
+  console.log(family[i]);
+}
 
 //Code Here
 
@@ -45,6 +49,14 @@ let evensArr = []
 /*
   Use a for-loop to iterate through each number in the 'nums' array, if the number is even, append it to the 'evensArr'.
 */
+for (let i = 0; i < nums.length; i++) {
+  if (nums[i] % 2 === 0) {
+    evensArr.push(nums[i]);
+  }
+}
+
+console.log(evensArr);
+
 
 //Code Here
 
