@@ -6,6 +6,8 @@ var arr = [10,20,30,40,50,60]
   Create a variable named 'firstItem' and set it equal to the first value of the 'arr' array.
 */
 
+var firstItem = arr[0];
+console.log(firstItem);
 //Code Here
 
 
@@ -13,6 +15,9 @@ var arr = [10,20,30,40,50,60]
 /*
   Remove the last item from the 'arr' array and store it in a variable named 'lastItemRemoved'. Console.log the array to verify you no longer have the last item.
 */
+
+var lastItemRemoved = arr.pop();
+console.log(lastItemRemoved);
 
 //Code Here
 
