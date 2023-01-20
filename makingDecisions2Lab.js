@@ -24,7 +24,7 @@ console.log(lastItemRemoved);
 ////////// PROBLEM 3 //////////
 
 // Do not edit the code below.
-var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ian'];
+var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
 // Do not edit the code above.
 
 /*
@@ -57,7 +57,6 @@ for (let i = 0; i < nums.length; i++) {
 
 console.log(evensArr);
 
-
 //Code Here
 
 
@@ -71,6 +70,18 @@ var score = 74
 /*
   Determine if the letter grade of the given variable 'score'. If the variable is a 90 or above, console log an 'A', between 80 and 89, console log a 'B', between 70 and 79, 'C', between 60 and 69, 'D', and anything below 60 should console log an 'F'.
 */
+
+if (score > 89) {
+  console.log("A");
+} else if (score > 79) {
+  console.log("B");
+} else if (score > 69) {
+  console.log("C");
+} else if (score > 59) {
+  console.log("D");
+} else {
+  console.log("F");
+}
 
 //Code Here
 
@@ -86,6 +97,9 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 /*
   Create a variable named 'someNum' and set it equal to the fifth value of the 'myFavoriteNumbers' array.
 */
+
+var someNum = myFavoriteNumbers[4];
+console.log(someNum);
 
 //Code Here
 
